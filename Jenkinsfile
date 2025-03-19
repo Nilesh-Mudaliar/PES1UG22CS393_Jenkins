@@ -21,7 +21,7 @@ pipeline {
     }
     stage('Deploy') {
       steps {
-        //sh 'invalid_command' // Command does not exist
+        sh 'invalid_command' // Command does not exist
         echo 'deploy'
       }
     }
